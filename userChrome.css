@@ -44,7 +44,7 @@ toolbar#nav-bar {
 /*====== UI Settings ======*/
 
 :root {
-    --navbarWidth: 500px; /* Set width of navbar */
+    --navbarWidth: 750px; /* Set width of navbar */
 }
 
 /* If the window is wider than 1000px, use flex layout */
@@ -101,7 +101,9 @@ toolbar#nav-bar {
 /* Remove UI elements */
 #identity-box, /* Site information */
 #tracking-protection-icon-container, /* Shield icon */
+/*
 #page-action-buttons > :not(#urlbar-zoom-button, #star-button-box), /* All url bar icons except for zoom level and bookmarks */
+
 #urlbar-go-button, /* Search URL magnifying glass */
 #alltabs-button, /* Menu to display all tabs at the end of tabs bar */
 .titlebar-buttonbox-container /* Minimize, maximize, and close buttons */ {
